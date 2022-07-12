@@ -1,0 +1,23 @@
+.filtros {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  align-items: center;
+  gap: 1rem;
+  width: max-content;
+}
+
+.filtros label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0a4d9d;
+}
+
+.filtros input[type="text"]{ 
+  padding: 15px 20px; 
+  border-radius: 3px;
+  width: 700px;
+  font-size: 1rem;
+  border: 1px solid #d0d0d0;
+}

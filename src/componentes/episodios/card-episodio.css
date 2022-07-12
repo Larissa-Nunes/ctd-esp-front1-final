@@ -1,0 +1,36 @@
+.card-episodio {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  background-color: #cbeeff;
+  padding: 10px 20px;
+  border: 1px solid #757575;
+  border-radius: 8px;
+}
+
+.card-episodio:hover {
+  transform: scale(1.05);
+  transition: all .4s ease;
+}
+
+.card-episodio h4 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.card-episodio > span {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.card-episodio div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-episodio div span:nth-child(1) {
+  margin-right: 10px;
+}
